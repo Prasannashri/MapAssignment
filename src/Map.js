@@ -108,7 +108,7 @@ class BasicMap extends Component {
           }}
           >
           <ZoomableGroup center={this.state.center} zoom={this.state.zoom}>
-            <Geographies geography={ "/static/world-50m-with-population.json" } disableOptimization>
+            <Geographies geography={"https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/examples/choropleth-map/static/world-50m-with-population.json"}>
               {(geographies, projection) => 
               geographies.map((geography, i) => geography.id !== "010" && (
                 <Geography
