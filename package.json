@@ -1,0 +1,36 @@
+{
+  "name": "complete-map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-geo": "^1.11.6",
+    "d3-geo-projection": "^2.7.0",
+    "d3-scale": "^3.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^2.1.8",
+    "react-simple-maps": "^0.12.1",
+    "react-tooltip": "^3.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
