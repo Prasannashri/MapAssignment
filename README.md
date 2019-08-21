@@ -3,7 +3,7 @@
 Install all the necessary Packages using npm install command
 and run using npm start command
 
-For running in Development Mode: use  npm run start
+For running in Development Mode: use  <b>npm run start</b>
 
 src/Map.js is the main file that contains the all logic.
 
