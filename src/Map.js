@@ -27,6 +27,11 @@ const city = [
   { "name": "Guangzhou", "coordinates": [113.2644,23.1291], "population": 20597000 },
   { "name": "Sao Paulo", "coordinates": [-46.6333,-23.5505], "population": 20365000 },
   { "name": "Mexico City", "coordinates": [-99.1332,19.4326], "population": 20063000 },
+  { "name": "Madurai","coordinates":[78.1198,9.9252],"population":15600000},
+  { "name":"Chennai","coordinates":[80.2707,13.0827],"population":33000000},
+  { "name":"Trichy","coordinates":[78.7047,10.7905],"population":9000700},
+  { "name":"Coimbatore","coordinates":[76.9558,11.0168],"population":16000000},
+  { "name":"Thirunelveli","coordinates":[77.7567,8.7139],"population":4750000}
 ]
 const cityScale = scaleLinear()
   .domain([0,37843000])
